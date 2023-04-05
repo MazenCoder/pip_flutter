@@ -73,7 +73,7 @@ class _PipFlutterPlayerState extends State<PipFlutterPlayer>
   @override
   void initState() {
     super.initState();
-    WidgetsBinding.instance!.addObserver(this);
+    WidgetsBinding.instance.addObserver(this);
   }
 
   @override
@@ -121,7 +121,7 @@ class _PipFlutterPlayerState extends State<PipFlutterPlayer>
           _pipFlutterPlayerConfiguration.deviceOrientationsAfterFullScreen);
     }
 
-    WidgetsBinding.instance!.removeObserver(this);
+    WidgetsBinding.instance.removeObserver(this);
     _controllerEventSubscription?.cancel();
     widget.controller.dispose();
     VisibilityDetectorController.instance

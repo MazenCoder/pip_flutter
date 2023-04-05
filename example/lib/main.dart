@@ -71,6 +71,7 @@ class PictureInPicturePage extends StatefulWidget {
 }
 
 class _PictureInPicturePageState extends State<PictureInPicturePage> {
+
   late PipFlutterPlayerController pipFlutterPlayerController;
   final GlobalKey pipFlutterPlayerKey = GlobalKey();
 
